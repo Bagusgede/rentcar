@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RentCar - Premium Car Rental Service</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <div class="logo-icon">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <span class="logo-text">RENTCAR</span>
+                </div>
+
+                <div class="nav-menu" id="navMenu">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#fleet" class="nav-link">Fleet</a>
+                    <a href="#services" class="nav-link">Services</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                    <a href="booking.php" class="btn-primary">Get Started</a>
+                </div>
+
+                <button class="menu-toggle" id="menuToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <span class="badge">Premium Car Rental Service</span>
+                    <h1 class="hero-title">
+                        Drive Your
+                        <span class="gradient-text">Dream Car</span>
+                    </h1>
+                    <p class="hero-description">
+                        Experience luxury and comfort with our premium collection of vehicles.
+                        Professional service, competitive rates, and unforgettable journeys.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#fleet" class="btn-gradient">
+                            <span>Explore Fleet</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="#contact" class="btn-outline">Contact Us</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-glow"></div>
+                    <img src="https://images.unsplash.com/photo-1563720360172-67b8f3dce741?w=800&h=600&fit=crop" alt="Luxury Car">
+                    <div class="rating-card">
+                        <div class="rating-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="rating-info">
+                            <div class="rating-value">4.9/5</div>
+                            <div class="rating-label">Customer Rating</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Stats Section -->
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="stat-value">5000+</div>
+                    <div class="stat-label">Happy Customers</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <div class="stat-value">50+</div>
+                    <div class="stat-label">Premium Cars</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <div class="stat-value">15+</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="stat-value">4.9</div>
+                    <div class="stat-label">Average Rating</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="services" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Why Choose Us</h2>
+                <p class="section-subtitle">Experience the best car rental service</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="feature-title">Full Insurance</h3>
+                    <p class="feature-desc">Comprehensive coverage included</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3 class="feature-title">24/7 Support</h3>
+                    <p class="feature-desc">Always ready to assist you</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3 class="feature-title">Free Delivery</h3>
+                    <p class="feature-desc">We bring the car to you</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3 class="feature-title">Instant Booking</h3>
+                    <p class="feature-desc">Quick and easy process</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fleet Section -->
+    <section id="fleet" class="fleet">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Premium Fleet</h2>
+                <p class="section-subtitle">Choose from our collection of luxury vehicles</p>
+            </div>
+            <div class="fleet-grid">
+                <!-- Car Card 1 -->
+                <div class="car-card">
+                    <div class="car-image">
+                        <img src="https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=800&h=500&fit=crop" alt="Mercedes-Benz S-Class">
+                        <div class="car-rating">
+                            <i class="fas fa-star"></i>
+                            <span>4.9</span>
+                        </div>
+                    </div>
+                    <div class="car-content">
+                        <div class="car-category">Luxury Sedan</div>
+                        <h3 class="car-name">Mercedes-Benz S-Class</h3>
+                        <div class="car-specs">
+                            <span><i class="fas fa-users"></i> 4</span>
+                            <span><i class="fas fa-cog"></i> Automatic</span>
+                            <span><i class="fas fa-gas-pump"></i> Hybrid</span>
+                        </div>
+                        <div class="car-features">
+                            <span class="feature-tag">Leather Seats</span>
+                            <span class="feature-tag">Sunroof</span>
+                        </div>
+                        <div class="car-footer">
+                            <div class="car-price">
+                                <div class="price-amount">Rp 2.500.000</div>
+                                <div class="price-period">per day</div>
+                            </div>
+                            <a href="booking.php?car=mercedes-s-class" class="btn-book">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Car Card 2 -->
+                <div class="car-card">
+                    <div class="car-image">
+                        <img src="https://images.unsplash.com/photo-1555215695-3004980ad54e?w=800&h=500&fit=crop" alt="BMW 7 Series">
+                        <div class="car-rating">
+                            <i class="fas fa-star"></i>
+                            <span>4.8</span>
+                        </div>
+                    </div>
+                    <div class="car-content">
+                        <div class="car-category">Executive Sedan</div>
+                        <h3 class="car-name">BMW 7 Series</h3>
+                        <div class="car-specs">
+                            <span><i class="fas fa-users"></i> 5</span>
+                            <span><i class="fas fa-cog"></i> Automatic</span>
+                            <span><i class="fas fa-gas-pump"></i> Petrol</span>
+                        </div>
+                        <div class="car-features">
+                            <span class="feature-tag">Massage Seats</span>
+                            <span class="feature-tag">Ambient Light</span>
+                        </div>
+                        <div class="car-footer">
+                            <div class="car-price">
+                                <div class="price-amount">Rp 2.200.000</div>
+                                <div class="price-period">per day</div>
+                            </div>
+                            <a href="booking.php?car=bmw-7-series" class="btn-book">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Car Card 3 -->
+                <div class="car-card">
+                    <div class="car-image">
+                        <img src="https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=800&h=500&fit=crop" alt="Audi A8">
+                        <div class="car-rating">
+                            <i class="fas fa-star"></i>
+                            <span>4.7</span>
+                        </div>
+                    </div>
+                    <div class="car-content">
+                        <div class="car-category">Premium Sedan</div>
+                        <h3 class="car-name">Audi A8</h3>
+                        <div class="car-specs">
+                            <span><i class="fas fa-users"></i> 5</span>
+                            <span><i class="fas fa-cog"></i> Automatic</span>
+                            <span><i class="fas fa-gas-pump"></i> Diesel</span>
+                        </div>
+                        <div class="car-features">
+                            <span class="feature-tag">Matrix LED</span>
+                            <span class="feature-tag">Virtual Cockpit</span>
+                        </div>
+                        <div class="car-footer">
+                            <div class="car-price">
+                                <div class="price-amount">Rp 2.000.000</div>
+                                <div class="price-period">per day</div>
+                            </div>
+                            <a href="booking.php?car=audi-a8" class="btn-book">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Car Card 4 -->
+                <div class="car-card">
+                    <div class="car-image">
+                        <img src="https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?w=800&h=500&fit=crop" alt="Range Rover Vogue">
+                        <div class="car-rating">
+                            <i class="fas fa-star"></i>
+                            <span>4.9</span>
+                        </div>
+                    </div>
+                    <div class="car-content">
+                        <div class="car-category">Luxury SUV</div>
+                        <h3 class="car-name">Range Rover Vogue</h3>
+                        <div class="car-specs">
+                            <span><i class="fas fa-users"></i> 7</span>
+                            <span><i class="fas fa-cog"></i> Automatic</span>
+                            <span><i class="fas fa-gas-pump"></i> Diesel</span>
+                        </div>
+                        <div class="car-features">
+                            <span class="feature-tag">Panoramic Roof</span>
+                            <span class="feature-tag">360° Camera</span>
+                        </div>
+                        <div class="car-footer">
+                            <div class="car-price">
+                                <div class="price-amount">Rp 3.000.000</div>
+                                <div class="price-period">per day</div>
+                            </div>
+                            <a href="booking.php?car=range-rover" class="btn-book">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Car Card 5 -->
+                <div class="car-card">
+                    <div class="car-image">
+                        <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&h=500&fit=crop" alt="Porsche Panamera">
+                        <div class="car-rating">
+                            <i class="fas fa-star"></i>
+                            <span>5.0</span>
+                        </div>
+                    </div>
+                    <div class="car-content">
+                        <div class="car-category">Sport Sedan</div>
+                        <h3 class="car-name">Porsche Panamera</h3>
+                        <div class="car-specs">
+                            <span><i class="fas fa-users"></i> 4</span>
+                            <span><i class="fas fa-cog"></i> Automatic</span>
+                            <span><i class="fas fa-gas-pump"></i> Petrol</span>
+                        </div>
+                        <div class="car-features">
+                            <span class="feature-tag">Sport Chrono</span>
+                            <span class="feature-tag">Bose Surround</span>
+                        </div>
+                        <div class="car-footer">
+                            <div class="car-price">
+                                <div class="price-amount">Rp 3.500.000</div>
+                                <div class="price-period">per day</div>
+                            </div>
+                            <a href="booking.php?car=porsche-panamera" class="btn-book">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- ... existing code -->
+
+
+                <!-- Car Card 6 -->
+                <div class="car-card">
+                    <div class="car-image">
+                        <img src="https://images.unsplash.com/photo-1617531653332-bd46c24f2068?w=800&h=500&fit=crop" alt="Tesla Model S">
+                        <div class="car-rating">
+                            <i class="fas fa-star"></i>
+                            <span>4.8</span>
+                        </div>
+                    </div>
+                    <div class="car-content">
+                        <div class="car-category">Electric Sedan</div>
+                        <h3 class="car-name">Tesla Model S</h3>
+                        <div class="car-specs">
+                            <span><i class="fas fa-users"></i> 5</span>
+                            <span><i class="fas fa-cog"></i> Automatic</span>
+                            <span><i class="fas fa-bolt"></i> Electric</span>
+                        </div>
+                        <div class="car-features">
+                            <span class="feature-tag">Autopilot</span>
+                            <span class="feature-tag">Premium Audio</span>
+                        </div>
+                        <div class="car-footer">
+                            <div class="car-price">
+                                <div class="price-amount">Rp 2.800.000</div>
+                                <div class="price-period">per day</div>
+                            </div>
+                            <a href="booking.php?car=tesla-model-s" class="btn-book">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">We're here to help you with any questions</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div>
+                        <h3>Contact Information</h3>
+                        <p>Have questions? We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
+                    </div>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Address</h4>
+                                <p>Jl. Sudirman No. 123, Jakarta 12190</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Phone</h4>
+                                <p>+62 21 1234 5678</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <p>info@rentcar.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Working Hours</h4>
+                                <p>Mon - Sun: 08:00 AM - 10:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form action="contact-process.php" method="POST">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" placeholder="Write your message here..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h3>RENTCAR</h3>
+                    <p>Your trusted partner for premium car rental services. Experience luxury, comfort, and reliability with every journey.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#fleet">Our Fleet</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="booking.php">Book Now</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Daily Rental</a></li>
+                        <li><a href="#">Monthly Rental</a></li>
+                        <li><a href="#">Airport Transfer</a></li>
+                        <li><a href="#">Wedding Car</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 RentCar. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
